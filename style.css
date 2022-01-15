@@ -182,7 +182,7 @@ footer{
     display: flex;
     justify-content: space-between;
 }
-/* responsive */
+/* responsive for mobile phone*/
 @media only screen and (max-width: 600px) {
     body{
         background-color: lightblue;
@@ -212,5 +212,35 @@ footer{
     }
     .all-apple{
         padding-left: 160px;
+    }
+}
+@media only screen and (max-width: 1180px) {
+    body{
+    background-color: rgb(194, 180, 180);
+    }
+    .product-box{
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+    }
+    .all-apple{
+        padding-left: 50px;
+    }
+    .titel-ber-heading{
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .new-product-vew{
+        width: 400px;
+        height: 400px;
+        margin-left: 200px;
+        margin-bottom: 300px;
+    }
+    .title-part{
+        padding-left: 30px;
+    }
+    .image-part{
+        padding-left: 50px;
     }
 }
