@@ -6,6 +6,29 @@ font-family: 'Prompt', sans-serif;
 font-family: 'Rubik', sans-serif;
 font-family: 'Varela Round', sans-serif;
 }
+/* hovering */
+.product:hover{
+    transform: scale(1.1);
+    transition:transform 1s;
+}
+.apple:hover{
+    transform: scale(1.3);
+    transition:transform 1s;
+}
+.image-pert:hover{
+    transform: scale(1.1);
+    transition:transform 1s;
+}
+.option:hover{
+    transform: scale(1.3);
+    transition:transform 1s;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+.button:hover{
+    transform: scale(1.3);
+    transition:transform 1s;
+}
 /*<-------------------------- 
     menu ber style decoration 
     ---------------------------> */
@@ -18,11 +41,11 @@ font-family: 'Varela Round', sans-serif;
 .side-titel-ber{
     display: flex;
     padding-right: 120px;
-    font-size: 20px;
+    font-size: 16px;
 }
 .option{
     margin-left: 34px;
-    font-size: 20px;
+    font-size: 16px;
 }
 .title-pop{
     font-size: 60px;
@@ -32,7 +55,7 @@ font-family: 'Varela Round', sans-serif;
     font-weight: bold;
 }
 .titel-ber-heading{
-    padding-left: 120px;
+    padding-left: 100px;
     font-size: 34px;
 }
 .new-product-vew{
@@ -56,7 +79,7 @@ font-family: 'Varela Round', sans-serif;
     color:#E02C6D;
    margin-top: 70px;
    justify-content: right;
-   padding-right: 300px;
+   padding-right: 100px;
 }
 .button-text{
     text-decoration:none;
@@ -64,7 +87,7 @@ font-family: 'Varela Round', sans-serif;
     padding-left: 35px;
     padding-top: 10px;
 }
-
+/* new section for new product-img */
 .product-title{
     display: flex;
     justify-content: center;
@@ -73,17 +96,15 @@ font-family: 'Varela Round', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
-
 .products{
-    width: 329px;
+    width: 279px;
     height: 479px;
 }
 .product-img img{
     margin-top: 15px;
-    width: 300px;
-    height: 256px;
+    width: 250px;
+    height: 200px;
 }
 .product{
     border-radius: 5px;
@@ -97,44 +118,22 @@ font-family: 'Varela Round', sans-serif;
 .fa-star.empty{
     color: rgb(179, 177, 140);
 }
+.color-black{
+    color: black;
+}
 .product-box{
     display: grid;
     grid-template-columns: repeat(3, 1fr)
 
 }
+
 .product-box{
     grid-column-gap: 30px;
     grid-row-gap: 30px;
 }
-.social-media{
-    display: flex;
-    justify-content: space-between;
-}
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #0A0826;
-    color: white;
-}
-.footer{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-.copyright{
-    display: flex;
-    align-items: center;
-}
-.icon{
-    display: flex;
-    width: 32px;
-    height: 32px;
-    padding-left: 20px;
+/* optional decotation */
+.apple{
+    margin-bottom: 200px;
 }
 .text{
     display:grid;
@@ -151,4 +150,35 @@ footer{
     border-radius: 20px;
     color: white;
     background-color: royalblue;
+}
+
+/* foooter decatation */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0A0826;
+    color: white;
+}
+.footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    width: 32px;
+    height: 32px;
+    padding-left: 20px;
+}
+.social-media{
+    display: flex;
+    justify-content: space-between;
 }
