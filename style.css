@@ -182,3 +182,35 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+/* responsive */
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: lightblue;
+
+    }
+    .product-box{
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+    }
+    footer{
+        width: 800px;
+        background-color: rgb(17, 17, 46);
+    }
+    .titel-ber-heading{
+        font-size: 20px;
+    }
+    .new-product-vew{
+        width: 400px;
+        height: 400px;
+        margin-left: 200px;
+        margin-bottom: 300px;
+    }
+    .container{
+        padding-left: 360px;
+    }
+    .all-apple{
+        padding-left: 160px;
+    }
+}
