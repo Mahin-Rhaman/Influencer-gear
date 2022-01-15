@@ -1,0 +1,138 @@
+body{
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Be Vietnam Pro', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Varela Round', sans-serif;
+}
+/*<-------------------------- 
+    menu ber style decoration 
+    ---------------------------> */
+    .menu-ber{
+    display: flex;
+    margin-top: 96px;
+    align-items: center;
+    justify-content: space-between;
+}
+.side-titel-ber{
+    display: flex;
+    padding-right: 120px;
+    font-size: 20px;
+}
+.option{
+    margin-left: 34px;
+    font-size: 20px;
+}
+.title-pop{
+    font-size: 60px;
+}
+.peragraph{
+    font-size: 20px;
+    font-weight: bold;
+}
+.titel-ber-heading{
+    padding-left: 120px;
+    font-size: 34px;
+}
+.new-product-vew{
+    display: flex;
+    justify-content: center;
+    margin-top: 148.5px;
+}
+.new-product-vew img{
+    width: 440px;
+    height: 414px;
+}
+.button{
+    width: 196px;
+    height: 44px;
+    border-radius: 10px;
+   background-color: #E02C6D;
+}
+.button-text-2{
+    display: flex;
+    font-weight: bold;
+    color:#E02C6D;
+   margin-top: 70px;
+   justify-content: right;
+   padding-right: 300px;
+}
+.button-text{
+    text-decoration:none;
+    color: white;
+    padding-left: 35px;
+    padding-top: 10px;
+}
+
+.product-title{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.products{
+    width: 329px;
+    height: 479px;
+}
+.product-img img{
+    margin-top: 15px;
+    width: 300px;
+    height: 256px;
+}
+.product{
+    border-radius: 5px;
+    margin-top: 30px;
+    padding-left: 14px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.fa-star.filled{
+    color: #FB8200;
+}
+.fa-star.empty{
+    color: rgb(179, 177, 140);
+}
+.product-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+
+}
+.product-box{
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.social-media{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0A0826;
+    color: white;
+}
+.footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.copyright{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    width: 32px;
+    height: 32px;
+    padding-left: 20px;
+}
